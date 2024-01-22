@@ -4,6 +4,19 @@
     box-sizing: border-box;
 }
 
+.main{
+
+
+    
+    background-color: darkgoldenrod;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+
 .container{
 
     width: 100%;
@@ -14,11 +27,17 @@
     justify-content: center;
 }
 
+.head{
+    display: flex;
+   
+    justify-content: center;
+}
 #left,#right{
     width: 300px;
     min-height: 400px;
     margin: 20px;
     border: 2px dotted #fff;
+    flex-direction: column;
 }
 
 .list{
@@ -37,6 +56,6 @@
 }
 
 .credit a{
-    color: white;
+    color: rgb(0, 0, 0);
     text-decoration: none;
 }
